@@ -1,3 +1,3 @@
-# sample-portal
+# Welcome
 
-This sample portal is hosted at this [link](https://apimatic.github.io/sample-portal/).
+Ubeeqo's developer portal
