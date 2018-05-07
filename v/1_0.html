@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="../favicon.ico">
-    <title> CUbeeqo Partners API - 1.0</title>
+    <title> Ubeeqo Partners API - 1.0</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
     <style>
         body {
@@ -281,36 +281,49 @@
 
         <div class="hosted-api-docs">
             <script type="text/javascript">
-                var font = document.createElement("link");
-                font.rel = "stylesheet";
-                font.href = "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800";
-                var portalStyle = document.createElement("link");
-                portalStyle.rel = "stylesheet";
-                portalStyle.href = "https://dxjs.apimatic.io/static/css/main.9b04753e.css";
-                var script = document.createElement("script");
-                script.src = "https://dxjs.apimatic.io/static/js/portal.v4.js";
-                script.onload = function () {
-                    APIMaticDevPortal.show({
-                        container: "apimatic-widget",
-                        topElementHeight: 101,
-                        apiKey: "t0oZ0RtoUk8CXCA9YGjL_z0Aope4niP4BwSYErNlx2_HbIUwrexTZDZtvtc74PwK",
-                        baseUrl: "https://apimatic.io",
-                        enableExport: true,
-                        allowedLanguages: [
-                            "docs-http"
-                        ],
-                        themeOverrides: {
-                            palette: {
-                                primaryColor1: "#2981d2"
-                            }
-                        }
-                    });
-                };
-                document.getElementsByTagName("head")[0].appendChild(portalStyle);
-                document.getElementsByTagName("head")[0].appendChild(script);
-                document.getElementsByTagName("head")[0].appendChild(font);
-            </script>
-            <div id="apimatic-widget" style="height:100%" />
+    var font = document.createElement("link");
+    font.rel = "stylesheet";
+    font.href = "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800";
+    var portalStyle = document.createElement("link");
+    portalStyle.rel = "stylesheet";
+    portalStyle.href = "https://dxjs.apimatic.io/static/css/main.9b04753e.css";
+    var script = document.createElement("script");
+    script.src="https://dxjs.apimatic.io/static/js/portal.v4.js";
+    script.onload = function() {
+        APIMaticDevPortal.show({
+            container: "apimatic-widget",
+            portalStyle: "default",
+            topElementHeight: 0,
+            apiKey: "DGzfT4tQrkMUD78Px6z9F1ZWJC5dPNCLzPSZ5ttGD3kHZlU-9qHDQYRH7_ak1Eep",
+            baseUrl: "https://apimatic.io",
+            enableExport: true,
+            allowedLanguages:[
+                "docs-http",
+                "java_gradle_android_lib",
+                "objc_cocoa_touch_ios_lib",
+                "java_eclipse_jre_lib",
+                "php_generic_lib",
+                "python_generic_lib",
+                "ruby_generic_lib",
+                "angular_javascript_lib",
+                "node_javascript_lib",
+                "go_generic_lib",
+                "cs_net_standard_lib",
+                "cs_universal_windows_platform_lib",
+                "cs_portable_net_lib"
+            ],
+            themeOverrides: {
+                palette:{
+                    primaryColor1:"#29c9d2"
+                }
+            }
+        });
+    };
+    document.getElementsByTagName("head")[0].appendChild(portalStyle);
+    document.getElementsByTagName("head")[0].appendChild(script);
+    document.getElementsByTagName("head")[0].appendChild(font);
+</script>
+<div id="apimatic-widget" style="height:100%"/>
         </div>
 
     </div>
